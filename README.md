@@ -2,15 +2,13 @@
 
 Quant Dashboard is a local Flask app for **portfolio-versus-benchmark analytics**. You upload a CSV of daily simple returns. The server compounds those returns, measures risk, and fits CAPM and Fama–French regressions. Nothing is fetched at runtime: there is no live market feed, no database, and no API key.
 
-The two sections below are the whole product. The first explains every quantity the page reports, with the formulas the code actually uses. The second is how to run it.
-
 ---
 
 ## Highlights
 
 ![Landing page: file picker and expected CSV format](ProjectMedia/QDscreenshot1.png)
 
-*Landing page. Pick a `.csv` and press **Run Analysis**. The panel below shows a sample header row and spells out the upload rules: decimals rather than percents, `YYYY-MM-DD` dates, and 63–25,200 rows.*
+*Landing page. Pick a `.csv` and press **Run Analysis**.*
 
 ![Results header, final values of $1, and the linear equity curve](ProjectMedia/QDscreenshot2.png)
 
